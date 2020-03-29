@@ -80,4 +80,4 @@ for event in root.findall('{http://www.egi.com/event_mff}event'):
             raise ValueError("No 'cel#' key found in 'rsp+' event")
 
 # dump the file
-print(ET.tostring(root, encoding='utf8', method='xml').decode("utf-8"))
+print(ET.tostring(root, encoding='UTF-8', method='xml').decode("utf-8"))
