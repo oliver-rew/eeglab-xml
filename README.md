@@ -1,4 +1,4 @@
-#X EEGLAB XML modifier
+## EEGLAB XML modifier
 
 This script modifies Matlab EEGLab N400 event coding XML files. Its only function
 is to find 'rsp+' events and change the 'rsp+' to the 'cel' value within it.
