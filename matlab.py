@@ -77,7 +77,7 @@ for event in root.findall('{http://www.egi.com/event_mff}event'):
         # check that we found the needed 'keyCode' in each 'rsp+' event. If we did not
         # then something is wrong and we should fail
         if found == False:
-            raise ValueError("No 'cel# key found in 'rsp+' event")
+            raise ValueError("No 'cel#' key found in 'rsp+' event")
 
 # dump the file
 print(ET.tostring(root, encoding='utf8', method='xml').decode("utf-8"))
